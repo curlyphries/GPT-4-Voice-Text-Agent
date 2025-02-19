@@ -1,0 +1,60 @@
+/* styles.css */
+
+/* Container styling */
+.container {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Conversation textarea */
+#conversation {
+  width: 100%;
+  margin-top: 10px;
+  resize: none;
+}
+
+/* Controls styling */
+.controls {
+  margin-top: 10px;
+}
+
+.controls input[type="text"] {
+  width: 60%;
+  padding: 8px;
+  margin-right: 8px;
+}
+
+.light-mode {
+  background-color: #fdfdfd;
+  color: #000;
+}
+
+.dark-mode {
+  background-color: #262626;
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3498db;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Make the buttons look a bit nicer when hovered */
+button:hover {
+  background-color: #2980b9;
+}
+
+.output-mode {
+  margin-top: 10px;
+}
+
+.usage-check {
+  margin-top: 10px;
+}

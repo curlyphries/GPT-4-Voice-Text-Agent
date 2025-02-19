@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GPT-4 Voice & Text Agent</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</head>
+<body class="light-mode">
+  <div class="container">
+    <h1>GPT-4 Voice & Text Agent</h1>
+
+    <button id="themeToggleBtn">Toggle Dark/Light</button>
+
+    <div id="conversationContainer">
+      <textarea id="conversation" rows="12" readonly></textarea>
+    </div>
+    
+    <div class="controls">
+      <input type="text" id="userInput" placeholder="Type your message..." />
+      <button id="sendBtn">Send</button>
+      <button id="voiceBtn">🎤 Voice</button>
+    </div>
+
+    <div class="output-mode">
+      <label for="outputMode">Assistant Output Mode:</label>
+      <select id="outputMode">
+        <option value="text">Text Only</option>
+        <option value="voice">Voice Only</option>
+        <option value="both">Both</option>
+      </select>
+    </div>
+
+    <div class="usage-check">
+      <button id="usageBtn">Check Usage</button>
+      <div id="usageInfo"></div>
+    </div>
+  </div>
+</body>
+</html>
