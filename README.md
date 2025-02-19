@@ -1,11 +1,11 @@
+
+![image](https://github.com/user-attachments/assets/c391c69e-3f7e-47c0-97ad-7f8e82199bf8)
+
 ```markdown
 # GPT-4 Voice & Text Agent
 
 A **generic AI assistant** that integrates **GPT-4**, **Google Search**, and **voice interaction**.  
 Supports **text and voice commands**, **conversation memory**, and **cost tracking** for API usage.
-
-![image](https://github.com/user-attachments/assets/c391c69e-3f7e-47c0-97ad-7f8e82199bf8)
-
 
 ---
 
